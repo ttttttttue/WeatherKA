@@ -9,7 +9,6 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-
 class CitiesList: UITableViewController {
 
     var cities: [City] = []

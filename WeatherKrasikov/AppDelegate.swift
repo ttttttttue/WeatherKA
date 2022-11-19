@@ -6,6 +6,10 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

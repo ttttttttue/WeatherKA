@@ -13,11 +13,12 @@
 		073FC5782923DEF90086CCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5762923DEF90086CCD1 /* Main.storyboard */; };
 		073FC57A2923DEFA0086CCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5792923DEFA0086CCD1 /* Assets.xcassets */; };
 		073FC57D2923DEFA0086CCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073FC57B2923DEFA0086CCD1 /* LaunchScreen.storyboard */; };
-		073FC5862923E4960086CCD1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 073FC5852923E4960086CCD1 /* Alamofire */; };
-		073FC5892923E4A70086CCD1 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 073FC5882923E4A70086CCD1 /* SwiftyJSON */; };
 		07F0F2202923F5DB008A900C /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F21F2923F5DB008A900C /* CityCell.swift */; };
 		07F0F2242924023B008A900C /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F2232924023B008A900C /* City.swift */; };
 		07F0F2262924D2F7008A900C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F2252924D2F7008A900C /* Config.swift */; };
+		07F0F22F29291D4C008A900C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07F0F22E29291D4C008A900C /* Alamofire */; };
+		07F0F23229291D73008A900C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 07F0F23129291D73008A900C /* SwiftyJSON */; };
+		07F0F23429291E9C008A900C /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F23329291E9C008A900C /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		07F0F21F2923F5DB008A900C /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
 		07F0F2232924023B008A900C /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		07F0F2252924D2F7008A900C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		07F0F23329291E9C008A900C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073FC5892923E4A70086CCD1 /* SwiftyJSON in Frameworks */,
-				073FC5862923E4960086CCD1 /* Alamofire in Frameworks */,
+				07F0F23229291D73008A900C /* SwiftyJSON in Frameworks */,
+				07F0F22F29291D4C008A900C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +52,7 @@
 		073FC5642923DEF90086CCD1 = {
 			isa = PBXGroup;
 			children = (
+				07F0F23329291E9C008A900C /* Package.swift */,
 				073FC56F2923DEF90086CCD1 /* WeatherKrasikov */,
 				073FC56E2923DEF90086CCD1 /* Products */,
 			);
@@ -97,8 +100,8 @@
 			);
 			name = WeatherKrasikov;
 			packageProductDependencies = (
-				073FC5852923E4960086CCD1 /* Alamofire */,
-				073FC5882923E4A70086CCD1 /* SwiftyJSON */,
+				07F0F22E29291D4C008A900C /* Alamofire */,
+				07F0F23129291D73008A900C /* SwiftyJSON */,
 			);
 			productName = WeatherKrasikov;
 			productReference = 073FC56D2923DEF90086CCD1 /* WeatherKrasikov.app */;
@@ -129,8 +132,8 @@
 			);
 			mainGroup = 073FC5642923DEF90086CCD1;
 			packageReferences = (
-				073FC5842923E4960086CCD1 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				073FC5872923E4A70086CCD1 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				07F0F22D29291D4C008A900C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				07F0F23029291D73008A900C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 073FC56E2923DEF90086CCD1 /* Products */;
 			projectDirPath = "";
@@ -162,6 +165,7 @@
 				073FC5752923DEF90086CCD1 /* CitiesList.swift in Sources */,
 				073FC5712923DEF90086CCD1 /* AppDelegate.swift in Sources */,
 				07F0F2242924023B008A900C /* City.swift in Sources */,
+				07F0F23429291E9C008A900C /* Package.swift in Sources */,
 				07F0F2262924D2F7008A900C /* Config.swift in Sources */,
 				07F0F2202923F5DB008A900C /* CityCell.swift in Sources */,
 				073FC5732923DEF90086CCD1 /* SceneDelegate.swift in Sources */,
@@ -390,33 +394,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		073FC5842923E4960086CCD1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		07F0F22D29291D4C008A900C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
-		073FC5872923E4A70086CCD1 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+		07F0F23029291D73008A900C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		073FC5852923E4960086CCD1 /* Alamofire */ = {
+		07F0F22E29291D4C008A900C /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 073FC5842923E4960086CCD1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 07F0F22D29291D4C008A900C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		073FC5882923E4A70086CCD1 /* SwiftyJSON */ = {
+		07F0F23129291D73008A900C /* SwiftyJSON */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 073FC5872923E4A70086CCD1 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			package = 07F0F23029291D73008A900C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
